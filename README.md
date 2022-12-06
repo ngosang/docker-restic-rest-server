@@ -45,14 +45,13 @@ Compatible with docker-compose v2 schemas.
 version: "2.1"
 services:
   restic-rest-server:
-    # https://hub.docker.com/r/restic/rest-server
     image: ngosang/restic-rest-server
     container_name: restic-rest-server
     environment:
       - TZ=Europe/Madrid
       - PASSWORD_FILE=/data/.htpasswd
     volumes:
-      - /media/hdd_raid/BACKUPS/restic:/data
+      - /host_path/restic/data:/data
     ports:
       - 8000:8000
     restart: unless-stopped
