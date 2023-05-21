@@ -1,4 +1,4 @@
-FROM golang:alpine3.17 AS builder
+FROM golang:alpine3.18 AS builder
 
 ENV RESTIC_REST_SERVER_VERSION 0.11.0
 ENV CGO_ENABLED 0
@@ -14,7 +14,7 @@ RUN cd /tmp \
     # prepare other resources
     && mv docker /tmp/docker
 
-FROM alpine:3.17
+FROM alpine:3.18
 
 ENV DATA_DIRECTORY /data
 ENV PASSWORD_FILE /data/.htpasswd
