@@ -6,7 +6,9 @@
 [![Donate Bitcoin](https://img.shields.io/badge/Donate-Bitcoin-f7931a.svg)](https://www.blockchain.com/btc/address/14EcPN47rWXkmFvjfohJx2rQxxoeBRJhej)
 [![Donate Ethereum](https://img.shields.io/badge/Donate-Ethereum-8c8c8c.svg)](https://www.blockchain.com/eth/address/0x0D1549BbB00926BF3D92c1A8A58695e982f1BE2E)
 
-Docker image for [Restic Rest Server](https://github.com/restic/rest-server) with support for multi-architecture.
+Docker image for [Restic REST Server](https://github.com/restic/rest-server) with support for multi-architecture.
+
+:warning: This repository is archived because the [official Docker image for Restic REST Server](https://hub.docker.com/r/restic/rest-server) has support for multi-architecture since version 0.12.0. Use the official Docker image instead, the configuration is the same.
 
 The image does not contain changes compared to the official image. You can use the official documentation from [here](https://hub.docker.com/r/restic/rest-server) and [here](https://github.com/restic/rest-server#docker).
 
