@@ -1,10 +1,11 @@
 # ngosang/restic-rest-server
 
 [![Latest release](https://img.shields.io/github/v/release/ngosang/docker-restic-rest-server)](https://github.com/ngosang/docker-restic-rest-server/releases)
-[![Docker Pulls](https://img.shields.io/docker/pulls/ngosang/restic-rest-server)](https://hub.docker.com/r/ngosang/restic-rest-server/)
-[![Donate PayPal](https://img.shields.io/badge/Donate-PayPal-yellow.svg)](https://www.paypal.com/paypalme/diegoheras0xff)
-[![Donate Bitcoin](https://img.shields.io/badge/Donate-Bitcoin-f7931a.svg)](https://www.blockchain.com/btc/address/14EcPN47rWXkmFvjfohJx2rQxxoeBRJhej)
-[![Donate Ethereum](https://img.shields.io/badge/Donate-Ethereum-8c8c8c.svg)](https://www.blockchain.com/eth/address/0x0D1549BbB00926BF3D92c1A8A58695e982f1BE2E)
+[![Docker Pulls](https://img.shields.io/docker/pulls/ngosang/restic-rest-server)](https://hub.docker.com/r/ngosang/restic-rest-server)
+[![Docker Stars](https://img.shields.io/docker/stars/ngosang/restic-rest-server)](https://hub.docker.com/r/ngosang/restic-rest-server)
+[![GitHub Repo stars](https://img.shields.io/github/stars/ngosang/docker-restic-rest-server)](https://github.com/ngosang/docker-restic-rest-server)
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/ngosang)
 
 Docker image for [Restic REST Server](https://github.com/restic/rest-server) with support for multi-architecture.
 
